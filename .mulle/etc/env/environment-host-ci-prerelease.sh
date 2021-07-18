@@ -1,4 +1,3 @@
-# Fill it with mulle-env envirionment --scope  set <key> <value>
 #
 # mulle-buffer nodetype: ${MULLE_BUFFER_NODETYPE:-tar}
 #
@@ -54,6 +53,24 @@ export MULLE_C11_BRANCH="prerelease"
 
 
 #
+# mulle-data nodetype: ${MULLE_DATA_NODETYPE:-tar}
+#
+export MULLE_DATA_NODETYPE="git"
+
+
+#
+# mulle-data url: ${MULLE_DATA_URL:-https://github.com/mulle-c/mulle-data/archive/${MULLE_TAG}.tar.gz}
+#
+export MULLE_DATA_URL="https://github.com/mulle-c/mulle-data.git"
+
+
+#
+# mulle-data branch: ${MULLE_DATA_BRANCH}
+#
+export MULLE_DATA_BRANCH="prerelease"
+
+
+#
 # mulle-utf nodetype: ${MULLE_UTF_NODETYPE:-tar}
 #
 export MULLE_UTF_NODETYPE="git"
@@ -105,23 +122,5 @@ export MULLE_THREAD_URL="https://github.com/mulle-concurrent/mulle-thread.git"
 # mulle-thread branch: ${MULLE_THREAD_BRANCH}
 #
 export MULLE_THREAD_BRANCH="prerelease"
-
-
-#
-# mulle-thread nodetype: ${MULLE_DATA_NODETYPE:-tar}
-#
-export MULLE_DATA_NODETYPE="git"
-
-
-#
-# mulle-thread url: ${MULLE_DATA_URL:-https://github.com/mulle-c/mulle-data/archive/${MULLE_TAG}.tar.gz}
-#
-export MULLE_DATA_URL="https://github.com/mulle-c/mulle-data.git"
-
-
-#
-# mulle-thread branch: ${MULLE_DATA_BRANCH}
-#
-export MULLE_DATA_BRANCH="prerelease"
 
 

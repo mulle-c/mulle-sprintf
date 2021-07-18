@@ -15,6 +15,7 @@ var/
 
 environment-host-*.sh
 environment-user-*.sh
+!environment-host-ci-*.sh
 
 # stashes are generally boring
 stash/
